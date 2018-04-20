@@ -2,7 +2,7 @@
 #include "brakes.h"
 using namespace std;
 
-int brakePadIntegrity = 49;
+int brakePadIntegrity = 50;
 int brakeFluidPressue = 53;
 
 bool brakeCheck() {
