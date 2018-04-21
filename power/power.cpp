@@ -13,3 +13,7 @@ bool powerCheck() {
 		return false;
 	}
 }
+void setPower(int pLevel)
+{
+    powerLevel =pLevel; 
+}
