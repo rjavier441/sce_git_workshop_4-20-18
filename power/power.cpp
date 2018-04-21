@@ -13,3 +13,6 @@ bool powerCheck() {
 		return false;
 	}
 }
+void resetPower(){
+	powerLevel =32; //Back to inital state 
+}
