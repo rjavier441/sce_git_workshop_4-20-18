@@ -8,3 +8,7 @@ bool powerCheck() {
     // If battery level < 20, return false. Otherwise, return true
     return false;
 }
+void setPower(int pLevel)
+{
+    powerLevel =pLevel; 
+}
