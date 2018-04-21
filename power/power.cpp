@@ -16,7 +16,6 @@ bool powerCheck() {
 void resetPower(){
 	powerLevel =32; //Back to inital state 
 }
-void setPower(int pLevel)
-{
+void setPower(int pLevel){
     powerLevel =pLevel; 
 }
