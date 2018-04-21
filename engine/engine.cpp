@@ -22,3 +22,8 @@ void startEngine() {
 void setTempHi(int newTemp) {
 	tempHi = newTemp;
 }
+
+void setTempLo(int newTempLo) {
+    // Sets the lower temperature threshold to a specified value
+    tempLo = newTempLo;
+}
