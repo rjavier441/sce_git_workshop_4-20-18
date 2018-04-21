@@ -8,3 +8,6 @@ bool powerCheck() {
     // If battery level < 20, return false. Otherwise, return true
     return false;
 }
+void resetPower(){
+	powerLevel =32; //Back to inital state 
+}
