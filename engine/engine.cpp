@@ -18,3 +18,7 @@ void startEngine() {
     // If temperature < tempLo OR temperature > tempHi, set engineFailure to true.
     if (temperature < tempLo || temperature > tempHi) {engineFailure = true;}
 }
+
+void setTempHi(int newTemp) {
+	tempHi = newTemp;
+}
