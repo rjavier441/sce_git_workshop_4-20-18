@@ -5,6 +5,11 @@ using namespace std;
 int powerLevel = 32; //What does the scouter say?
 
 bool powerCheck() {
-    // If battery level < 20, return false. Otherwise, return true
-    return false;
+	// If battery level < 20, return false. Otherwise, return true
+	if(powerLevel < 20){
+		return true;
+	}
+	else{
+		return false;
+	}
 }
