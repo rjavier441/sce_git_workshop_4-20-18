@@ -10,10 +10,20 @@ int temperature = 50;
 
 bool engineIsOn () {
     // If engineFailure is true, return false. If engineActive is false, return false. Otherwise, return true.
-    return false;
+    if (engineFailure) {return false;}
+    return engineActive ? true : false;
 }
 
 void startEngine() {
     // If temperature < tempLo OR temperature > tempHi, set engineFailure to true.
-    return;
+    if (temperature < tempLo || temperature > tempHi) {engineFailure = true;}
+}
+
+void setTempHi(int newTemp) {
+	tempHi = newTemp;
+}
+
+void setTempLo(int newTempLo) {
+    // Sets the lower temperature threshold to a specified value
+    tempLo = newTempLo;
 }
