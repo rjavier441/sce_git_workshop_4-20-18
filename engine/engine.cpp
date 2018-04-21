@@ -11,7 +11,7 @@ int temperature = 50;
 bool engineIsOn () {
     // If engineFailure is true, return false. If engineActive is false, return false. Otherwise, return true.
     if (engineFailure) {return false;}
-    engineActive ? true : false;
+    return engineActive ? true : false;
 }
 
 void startEngine() {
